@@ -1,0 +1,32 @@
+body{
+  background: linear-gradient(#f4eeed, #d4cecd);
+}
+
+hr{
+  background-color: #717171;
+  border-style: none;
+  height: 1px;
+  width: 60%
+}
+
+disabled-hr{
+  border-color: #aaaaaa;
+  border-style: none;
+  border-top: dotted;
+  border-width: 6px;
+  width: 8%;
+}
+
+h1, h3{
+  color: #532e1c;
+}
+
+.profile-pic{
+  height: 180px;
+  border-radius: 100%;
+  filter: grayscale(15%) blur(0.4px);
+}
+
+.profile-pic:hover{
+  filter: grayscale(0%) blur(0.4px);
+}
